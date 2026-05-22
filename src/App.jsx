@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 // 1. Go to script.google.com → New Project
 // 2. Paste the code from GOOGLE_SCRIPT_SETUP.md
 // 3. Deploy as Web App → Copy the URL here:
-const WEBHOOK_URL = ""; // Leave empty to skip auto-submission
+const WEBHOOK_URL = "https://script.google.com/macros/s/TON_ID_ICI/exec";
 
 const QUESTIONS = [
   { id:"q1", section:"Profil du praticien", si:0, text:"Depuis combien d'années exercez-vous l'ostéopathie ?", type:"single", options:["Moins de 2 ans","2 à 5 ans","5 à 10 ans","Plus de 10 ans"] },
